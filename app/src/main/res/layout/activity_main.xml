@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/txtname"
+       android:text="Enter your fullname"
+       android:layout_marginTop="200dp"
+       android:textSize="25dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rdomale"
+        android:text="Male"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/rdofemale"
+        android:text="Female"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/rdoOthers"
+        android:text="Others"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <EditText
+        android:hint="Choose your Country name"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoview"
+        android:text="Enter Batch"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:text="Save"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
